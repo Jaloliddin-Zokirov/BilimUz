@@ -49,9 +49,9 @@ export function CoursesCategories() {
   return (
     <section className="container mx-auto px-8 py-36">
       <div className="mb-20 grid place-items-center text-center">
-        <Typography as="h2" variant="h2" color="blue-gray" className="my-3">
+        <h2 color="blue-gray" className="my-3">
           Courses Categories
-        </Typography>
+        </h2>
         <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
           A comprehensive selection of courses designed to empower you with the
           skills you need to thrive in the dynamic world of web development.
