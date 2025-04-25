@@ -3,7 +3,6 @@
 import React from "react";
 import {
   Button,
-  h2,
   Card,
   CardBody,
 } from "@material-tailwind/react";
