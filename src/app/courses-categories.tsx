@@ -3,7 +3,7 @@
 import React from "react";
 import {
   Button,
-  Typography,
+  h2,
   Card,
   CardBody,
 } from "@material-tailwind/react";
@@ -52,10 +52,10 @@ export function CoursesCategories() {
         <h2 color="blue-gray" className="my-3">
           Courses Categories
         </h2>
-        <Typography variant="lead" className="!text-gray-500 lg:w-6/12">
+        <h2 className="!text-gray-500 lg:w-6/12">
           A comprehensive selection of courses designed to empower you with the
           skills you need to thrive in the dynamic world of web development.
-        </Typography>
+        </h2>
       </div>
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         <Card
@@ -64,18 +64,18 @@ export function CoursesCategories() {
         >
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
           <CardBody className="relative w-full">
-            <Typography color="white" className="text-xs font-bold opacity-50">
+            <h2 color="white" className="text-xs font-bold opacity-50">
               HTML, CSS & Javascript
-            </Typography>
-            <Typography variant="h4" className="mt-9" color="white">
+            </h2>
+            <h4 className="mt-9" color="white">
               Web Development Intro
-            </Typography>
-            <Typography
+            </h4>
+            <h2
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
             >
               Ready to start your web development journey?
-            </Typography>
+            </h2>
             <Button size="sm" color="white">
               Enroll Now
             </Button>
